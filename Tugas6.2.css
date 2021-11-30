@@ -1,0 +1,52 @@
+        *{
+
+            box-sizing: border-box;
+
+        }
+
+        .container{
+            display: flex;
+            flex: 1;
+        }
+
+
+        body{
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        nav{
+            background: rgb(122, 124, 230);
+            width: 400px;
+            height: 567px;
+            font-size: 30px;
+        }
+
+        header,footer{
+            background: #c670e0;
+            height: 200px;
+            width: 1000px;
+            font-size: 30px;
+        }
+
+        .container1{
+            display: flex;
+        }
+
+        aside{
+            background: rgb(174, 236, 183);
+            width: 200px;
+            font-size: 30px;
+        }
+
+        article{
+            height: 25vh;
+            width: 40vh;
+            font-size: 30px;
+        }
+
+        header,footer,article,aside,nav{
+            padding: 1em;
+        }

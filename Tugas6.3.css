@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.box1 {
+    background-color: rgb(100, 81, 73);
+    height: 100px;
+}
+
+.box2 {
+    background-color: #d3b094e1;
+    height: 400px;
+    width: 250px;
+}
+
+.box3 {
+    background-color: #dbc29d;
+    height: 400px;
+    margin-left: 280px;
+    margin-top: -419px;
+}
+
+.box4 {
+    background-color: rgb(192, 161, 146);
+    height: 100px;
+}
+
+.cat {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 200px;
+}
+
+img {
+    width: 120px;
+    
+}
+
+h1 {
+    text-align: center;
+}
